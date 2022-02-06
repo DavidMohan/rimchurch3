@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    background-color: #e0dfda;
+}
+
+.home{
+    background: #000;
+    background-size: cover;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
+.my-nav {
+    top: 10px;
+}
+
+.bg-img-home {
+    background: url(../img/img2.jpg);
+    background-size: cover;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.home-card {
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px #b8b8b8;
+}
+
+.hov {
+    border-radius: 15px;
+    box-shadow: 0 0 20px #b8b8b8;
+}
+
+.hov img {
+    transition: all 1.5s;
+}
+
+.hov:hover img {
+    transform: scale(1.5);
+    transition: all 1.5s;
+}

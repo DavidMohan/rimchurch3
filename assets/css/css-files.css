@@ -1,0 +1,14 @@
+/* Bootstrap */
+@import url(./bootstrap.css);
+
+/* AOS */
+@import url(./aos.css);
+
+/* FontAwesome */
+@import url(./fontawesome.css);
+
+/* Index // Home CSS */
+@import url(./index.css);
+
+/* Main CSS */
+@import url(./main.css);

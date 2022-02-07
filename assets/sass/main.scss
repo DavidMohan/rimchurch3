@@ -1,0 +1,51 @@
+.home-events {
+  margin: 0;  
+  background: url(../img/img4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &--event-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+
+    &--white-line {
+      width: 10rem;
+      height: 4px;
+      background-color: white;
+      margin-top: 3rem;
+    }
+
+    &--single-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--img {
+      width: 100%;
+    }
+  }
+}
+
+.hov-img3 {
+  overflow: hidden;
+  width: 750px;
+  margin: 0;
+  border-radius: 0 12px 12px 0;
+  
+  &--img {
+    transition: all 1.5s;
+  }
+}
+
+.hov-img3:hover img{
+    transform: scale(1.5)rotate(7deg);
+}
+
+.col-11 {
+  border-radius: 12px;
+}
+
